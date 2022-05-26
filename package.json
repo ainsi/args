@@ -24,8 +24,5 @@
   "devDependencies": {
     "@types/node": "^17.0.35",
     "typescript": "^4.7.2"
-  },
-  "dependencies": {
-    "process": "^0.11.10"
   }
 }

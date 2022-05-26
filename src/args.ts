@@ -1,5 +1,6 @@
 class Args {
-    public args: Argument[];
+    private args: Argument[];
+    public length: number;
 
     constructor(args: string[]) {
         args = args.filter(arg => arg.length > 0);
@@ -21,6 +22,8 @@ class Args {
 
             return new Argument(arg, value);
         });
+
+        this.length = this.args.length;
     }
 
     public has(arg: string): boolean {

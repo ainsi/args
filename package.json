@@ -1,6 +1,6 @@
 {
   "name": "@ainsi/args",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "args",
   "main": "lib/args.js",
   "types": "lib/args.d.ts",

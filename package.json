@@ -1,0 +1,31 @@
+{
+  "name": "@ainsi/args",
+  "version": "1.0.0",
+  "description": "args",
+  "main": "lib/args.js",
+  "types": "lib/args.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainsi/args.git"
+  },
+  "keywords": [],
+  "author": "alex <shooteram@pm.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ainsi/args/issues"
+  },
+  "homepage": "https://github.com/ainsi/args#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}
